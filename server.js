@@ -2,7 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser"); //to parse json from client side
 const bcrypt = require("bcrypt-nodejs"); //to encrypt user passwords
 const cors = require("cors");
-const knex = require("knex");
+const knex = require("knex"); //to connect to database
 
 //controllers
 const register = require("./controllers/register");
