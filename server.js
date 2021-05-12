@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 app.use(cors()); //allow the client side access
 
 app.get("/", (req, res) => {
-  res.send(database.users);
+  res.send("It is working");
 });
 
 //post request for signin
